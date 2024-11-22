@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Splitwise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* General styling */ 
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8 0%, #a1cdff 100%);
+  background-size: cover;
+}
+
+/* Container styling */
+.container {
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+/* Header styling */
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+/* Button styling */
+.text-green-600 {
+  color: #4b9be5;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.bg-green-600 {
+  background-color: #4b9be5;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Main section styling */
+.text-4xl {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.text-green-500 {
+  color: #4b9be5;
+}
+
+.text-purple-400 {
+  color: #a78bfa;
+}
+
+.text-pink-400 {
+  color: #f472b6;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+/* Paragraph and icon styling */
+.text-lg {
+  font-size: 1.125rem;
+  color: #374151;
+  margin-bottom: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+/* Image styling */
+.w-full {
+  width: 100%;
+}
+
+.md\\:mt-0 {
+  margin-top: 0;
+}
+</style>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-6">
+    <div class="flex justify-between items-center">
+      <div class="text-2xl font-bold">SPLITPay</div>
+      <div>
+        <a class="text-blue-600 font-semibold mr-4" href="home.html">Home</a>
+        <a class="text-blue-600 font-semibold mr-4" href="login.html">Log in</a>
+        <a class="bg-blue-600 text-white font-semibold py-2 px-4 rounded" href="signup.html">Sign up</a>
+      </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center mt-16">
+      <div class="md:w-1/2">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+          Less stress when sharing expenses
+          <span class="text-blue-500">on trips.</span>
+        </h1>
+        <div class="flex space-x-4 mb-4">
+          <i class="fas fa-plane text-3xl text-blue-500"></i>
+          <i class="fas fa-home text-3xl text-blue-400"></i>
+          <i class="fas fa-heart text-3xl text-blue-400"></i>
+          <i class="fas fa-asterisk text-3xl text-blue-500"></i>
+        </div>
+        <p class="text-lg text-gray-700 mb-6">
+          Keep track of your shared expenses and balances with housemates, trips, groups, friends, and family.
+        </p>
+        <a class="bg-blue-600 text-white font-semibold py-3 px-6 rounded text-lg" href="index.html">Split Now</a>
+        <p class="mt-4 text-gray-600">KNOW WHO OWES WHOM BY HOW MUCH</p>
+      </div>
+      <div class="md:w-1/2 mt-10 md:mt-0">
+        <img src="https://storage.googleapis.com/a1aa/image/2WSEzRoazEZOBBQe217Gal6oLtcLh1ie1IK32xtayI5Uf5bnA.jpg" alt="Green plane icon with no background" class="w-full" width="600" height="600" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
